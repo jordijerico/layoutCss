@@ -1,0 +1,87 @@
+/*Estandar 1rem=10px*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    background-image: url("https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.imgBing {
+    width: 20rem;
+    height: 3rem;
+    margin-top: 1.3rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-family: "Segoe UI", Segoe, Tahoma, Arial, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.svgcomodin {
+   margin-top: 0.6rem;
+}
+
+/*Separador menu header*/
+.separador {
+    width: 75rem;
+}
+
+.barraBusqueda {
+    border-style: solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: white;
+    border-color: transparent;
+    width: 45%;
+    margin-left: 25%;
+    margin-top: 10%;
+    padding: 1rem;
+}
+.icons{
+    display: flex;
+    justify-content: flex-end;
+}
+.botonesNegros{
+    margin-top: 55rem;
+}
+.botonesNegros a{
+    padding: 1.5rem;
+    background-color: black;
+    margin-top: 50rem;
+    opacity: 40%;
+    border-radius: 10%;
+    text-decoration: none;
+    color: white;
+    margin-left: 2rem;
+}
+.boton2{
+    width: 4rem;
+}
+.boton1{
+    padding-left: 3.5rem !important;
+}
+.boton3{
+    padding-left: 3.5rem !important;
+}
+.boton4{
+    padding-left: 3.5rem !important;
+}
+.moverBotones{
+float: right;
+}

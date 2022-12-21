@@ -1,0 +1,56 @@
+/*Estandar 1rem=10px*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    background-color: black;
+}
+
+.imgNetflix{
+    width: 14rem;
+    height: 7rem;
+}
+.primerSpan{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+.primerSpan a{
+    text-decoration: none;
+    color: white;
+    margin-left: 2rem;
+}
+.imagenUsuario{
+    width: 4rem;
+    height: 4rem;
+}
+
+.spanSeparador{
+width: 105rem;
+}
+.caret{
+    border-color: #fff transparent transparent;
+    border-style: solid;
+    border-width: 5px 5px 0;
+    height: 0;
+    margin-left: 10px;
+}
+.carrete{
+    color: white;
+    width: 100%;
+    float: left;
+    margin-left: 5rem;
+}
+.headerCarrete{
+    font-size: x-large;
+    margin-top: 5rem;
+}
+.carrete img{
+    width: 19.5%;
+}
+.pelis{
+    margin-top: -3rem;
+}
